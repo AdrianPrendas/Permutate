@@ -1,8 +1,6 @@
 //how to write doc coments java8
 package eif203.labs.permutate;
 import eif203.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
   * Main class to establish which permutation algorithm is going to be tested
@@ -32,6 +30,7 @@ public class TestAll{
     TestPermutate.test_recursive_heap_sedgewick(n);
     TestPermutate.test_permutate_lexicographically(n);
     TestPermutate.test_permutate_naive(n);
+    TestPermutate.test_linkedlist(n);
   }
 
   /**
@@ -51,7 +50,7 @@ public class TestAll{
       case "heap_sedgewick":TestPermutate.test_recursive_heap_sedgewick(n);break;
       case "lexicographic": TestPermutate.test_permutate_lexicographically(n);break;
       case "naive":TestPermutate.test_permutate_naive(n);break;
-      case "tree":TestPermutate.test_tree(n);
+      case "linkedlist":TestPermutate.test_linkedlist(n);break;
       case "all":test_permutate_all(n);break;
       default:throw new Exception("error con el metodo");
      }
@@ -92,7 +91,7 @@ public class TestAll{
     * @param arguments in thread main to execute the program
     */
   public static void main(String[] arguments){
-    /*if(arguments.length==0){
+    if(arguments.length==0){
       help();
       for(int i=10;i>=0;i--){
       Delayer.delayOpers(100);//seg 
@@ -112,15 +111,7 @@ public class TestAll{
       }
       test_methods(metodo);
     }catch(Exception e){System.out.println(e.getMessage());}
-  }*/
-          Printing.verbose = true;
-          metodo = "tree";
-          n =3;
-      try {
-          test_methods(metodo);
-      } catch (Exception ex) {
-          Logger.getLogger(TestAll.class.getName()).log(Level.SEVERE, null, ex);
-      }
+  }
 
 }
 }

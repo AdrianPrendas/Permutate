@@ -74,10 +74,10 @@ public class HelperPermutate{
 	  * depends of a verbose from Printing<br>
 	  * @see Printing verbose
 	  */
-	public static void showPermutation(char[] a){
+public static void showPermutation(char[] a){
 		if (HelperPermutate.permTester!=null)
 			HelperPermutate.permTester.add(new Permutation(method, new String(a).split("")));//,tiempo()
-		Printing.printPlain(String.format("(%d) %s", ++permutation, Arrays.toString(a)));
+		Printing.printPlain(String.format("(%d) %s", ++permutation, new String(a)));
 	}
 
 
