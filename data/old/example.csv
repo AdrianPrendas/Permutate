@@ -1,0 +1,3 @@
+Method,p[0],p[1],Cost(ms)
+foo,A,B,0
+foo,B,A,0
