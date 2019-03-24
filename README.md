@@ -17,9 +17,9 @@
 	bats\run_Permutate_java.bat
 
 
-2) The project generate the CSV for the count of swaps by algorithm, instead of the time that takes, for the input data
+3) The project generate the CSV for the count of swaps by algorithm, instead of the time that takes, for the input data
 
-3)see documentation in doc folder
+4) see documentation in the doc folder
 
 
 Group:
