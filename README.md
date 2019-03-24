@@ -1,30 +1,29 @@
 
 ### PERMUTATION ALGORITGMS ###
-![untitled project](https://user-images.githubusercontent.com/20632410/54011997-210e3a80-413a-11e9-83d4-2b1a03625a12.gif)
-![untitled project](https://user-images.githubusercontent.com/20632410/54010805-e3a7ae00-4135-11e9-83a7-d5bbc0f7e066.gif)
 
-1) Para cargar y probar los algoritmos manualmente En CMD
+<img src="https://user-images.githubusercontent.com/20632410/54884114-b431ba80-4e32-11e9-8250-b85a5918038b.gif" width="418">
 
-bats\compile.bat
+<img src="https://user-images.githubusercontent.com/20632410/54884128-cf9cc580-4e32-11e9-8e2c-e8d2f8484c26.gif" width="418">
 
-
-bats\run_Permutate_java.bat
+<img src="https://user-images.githubusercontent.com/20632410/54884155-3326f300-4e33-11e9-9cbe-bd88624c11a0.gif" width="418">
 
 
-REM bat con parametros
-bats\run_Permutate_java.bat -n 4 -m linkedlist -v
+1) how to compile
+
+	bats\compile.bat
+
+2) how to run
+
+	bats\run_Permutate_java.bat
 
 
+2) The project generate the CSV for the count of swaps by algorithm, instead of the time that takes, for the input data
 
-2)el proyecto genera los csv con la cantidad de swaps
-por permutacion, no el tiempo que tardan
-
-
-3)ver documentacion en el directorio doc
+3)see documentation in doc folder
 
 
-Integrantes
-	Adrian Prendas 604140420
-	Joseph Artavia 116330698
-	Genesis Gonzales 116470598
-	Flavio Mejia 801030130
+Group:
+	Adrian Prendas 604140420 <br>
+	Joseph Artavia 116330698 <br>
+	Genesis Gonzales 116470598 <br>
+	Flavio Mejia 801030130 <br>
